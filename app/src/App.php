@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 namespace CommissionCalculator;
 
+use CommissionCalculator\Exception\FileInvalidFormatException;
 use CommissionCalculator\Exception\FileNotFoundException;
 use CommissionCalculator\Exception\StrategyNotFoundException;
 use CommissionCalculator\Model\Operation;
 use CommissionCalculator\Service\CommissionCalculator;
+use CommissionCalculator\Service\FileReader\Factory\FileReaderFactory;
 use DateTime;
 
 class App
@@ -19,14 +21,11 @@ class App
         $this->calculator = $commissionCalculator;
     }
 
-    /**
-     * @throws StrategyNotFoundException
-     */
     public function processOperations($filename): void
     {
-        $file = fopen($filename, 'r');
+        $fileReader = FileReaderFactory::create($filename);
 
-        while (($line = fgetcsv($file)) !== false) {
+        foreach ($fileReader->read($filename) as $line) {
             $operation = $this->parseOperation($line);
 
             try {
@@ -37,12 +36,13 @@ class App
             } catch (FileNotFoundException $e) {
                 echo 'Error: ' . $e->getMessage() . PHP_EOL;
                 break;
+            } catch (FileInvalidFormatException $e) {
+                echo 'Error: ' . $e->getMessage() . PHP_EOL;
+                break;
             }
 
             echo $fee . PHP_EOL;
         }
-
-        fclose($file);
     }
 
     private function parseOperation(array $data): Operation
