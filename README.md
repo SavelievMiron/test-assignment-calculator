@@ -1,9 +1,11 @@
 # Commission Task
 
-Requirements:
-PHP 7.4
+### Requirements:
+PHP v. 7.4 \
+Composer 2 \
+Docker
 
-## Installation
+### Installation
 1. Create `.env` from `env.example`
 ```
 cp env.example .env
@@ -24,7 +26,7 @@ docker-compose run --rm php-cli sh
 composer install
 ```
 
-## Commands
+### Commands
 
 Run the application
 ```php
@@ -36,11 +38,11 @@ Run tests
 composer run-script phpunit
 ```
 
-## Info
+### Info
 The file with transactions is stored in `storage/files/transactions.csv`
 
 The currency rates from [exchangeratesapi.io](https://exchangeratesapi.io) are cached in `storage/files/rates.json`
 
 The application is extensible. A client can add a new currency, rate source, and a new strategy for commission calculation.
 
-There is one automation test for the application which takes test input.csv, process the data, and compares actual output with an expected.
+There is one automation test for the application which takes input.csv from `tests/fixtures/input.csv`, process the data, and compares actual output with an expected.
