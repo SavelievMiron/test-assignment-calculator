@@ -1,0 +1,12 @@
+services:
+  php-cli:
+    container_name: "php-cli"
+    build:
+      context: ./.docker/php-cli
+      network: host
+    volumes:
+      - ./app:/app
+      - ./.docker/php-cli/conf/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini:ro
+    command: sleep 10000
+    environment:
+      XDEBUG_MODE: "${XDEBUG_MODE:-off}"

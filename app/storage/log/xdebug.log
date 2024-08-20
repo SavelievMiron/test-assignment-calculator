@@ -1,0 +1,362 @@
+[21] Log opened at 2024-08-18 19:52:52.549305
+[21] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[21] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[21] Log closed at 2024-08-18 19:52:52.572964
+
+[22] Log opened at 2024-08-18 19:53:40.003685
+[22] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[22] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[22] Log closed at 2024-08-18 19:53:40.011479
+
+[15] Log opened at 2024-08-18 19:56:38.235666
+[15] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[15] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[15] Log closed at 2024-08-18 19:56:38.246661
+
+[1] Log opened at 2024-08-18 20:32:19.326977
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/vendor/phpunit/phpunit/phpunit" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="16913"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:32:19.465803
+
+[1] Log opened at 2024-08-18 20:32:46.988405
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/vendor/phpunit/phpunit/phpunit" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="12157"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:32:47.128614
+
+[1] Log opened at 2024-08-18 20:33:21.306035
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/vendor/phpunit/phpunit/phpunit" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="19939"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:33:21.363863
+
+[1] Log opened at 2024-08-18 20:33:42.740613
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/vendor/phpunit/phpunit/phpunit" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="13662"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:33:42.986921
+
+[1] Log opened at 2024-08-18 20:34:08.239806
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/vendor/phpunit/phpunit/phpunit" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="13034"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:34:08.402492
+
+[1] Log opened at 2024-08-18 20:34:33.891465
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/vendor/phpunit/phpunit/phpunit" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="17165"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:34:34.044500
+
+[1] Log opened at 2024-08-18 20:36:21.976505
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/vendor/phpunit/phpunit/phpunit" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="15214"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:36:22.149825
+
+[1] Log opened at 2024-08-18 20:36:39.810056
+[1] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[1] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[1] Log closed at 2024-08-18 20:36:39.918762
+
+[1] Log opened at 2024-08-18 20:37:17.483953
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/main.php" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="18667"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:37:17.622169
+
+[1] Log opened at 2024-08-18 20:39:17.113612
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/main.php" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="10386"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:39:17.242323
+
+[1] Log opened at 2024-08-18 20:41:46.743633
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/main.php" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="14562"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:41:46.879506
+
+[1] Log opened at 2024-08-18 20:41:55.927458
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/main.php" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="16599"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:41:56.064026
+
+[15] Log opened at 2024-08-18 20:43:45.743242
+[15] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[15] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[15] Log closed at 2024-08-18 20:43:45.771854
+
+[1] Log opened at 2024-08-18 20:44:18.317300
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/main.php" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="18420"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:44:18.449557
+
+[1] Log opened at 2024-08-18 20:49:31.279831
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/main.php" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="19669"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:49:31.397585
+
+[1] Log opened at 2024-08-18 20:50:22.834921
+[1] [Step Debug] INFO: Connecting to configured address/port: docker.for.mac.localhost:9000.
+[1] [Step Debug] INFO: Connected to debugging client: docker.for.mac.localhost:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/main.php" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="14252"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:50:22.958021
+
+[1] Log opened at 2024-08-18 20:50:28.213456
+[1] [Step Debug] INFO: Connecting to configured address/port: docker.for.mac.localhost:9000.
+[1] [Step Debug] INFO: Connected to debugging client: docker.for.mac.localhost:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/main.php" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="12850"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:50:28.299268
+
+[1] Log opened at 2024-08-18 20:51:33.747321
+[1] [Step Debug] INFO: Connecting to configured address/port: docker.for.mac.localhost:9000.
+[1] [Step Debug] INFO: Connected to debugging client: docker.for.mac.localhost:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/main.php" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="15520"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:51:33.875537
+
+[1] Log opened at 2024-08-18 20:51:56.296772
+[1] [Step Debug] INFO: Connecting to configured address/port: docker.for.mac.localhost:9000.
+[1] [Step Debug] INFO: Connected to debugging client: docker.for.mac.localhost:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/main.php" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="11213"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:51:56.417924
+
+[1] Log opened at 2024-08-18 20:52:51.965111
+[1] [Step Debug] INFO: Connecting to configured address/port: docker.for.mac.localhost:9000.
+[1] [Step Debug] INFO: Connected to debugging client: docker.for.mac.localhost:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/main.php" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="18032"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:52:52.078432
+
+[1] Log opened at 2024-08-18 20:53:02.001398
+[1] [Step Debug] INFO: Connecting to configured address/port: host:9000.
+[1] [Step Debug] WARN: Creating socket for 'host:9000', getaddrinfo: Invalid argument.
+[1] [Step Debug] ERR: Could not connect to debugging client. Tried: host:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[1] Log closed at 2024-08-18 20:53:02.122613
+
+[1] Log opened at 2024-08-18 20:53:10.590614
+[1] [Step Debug] INFO: Connecting to configured address/port: localhost:9000.
+[1] [Step Debug] WARN: Creating socket for 'localhost:9000', poll success, but error: Operation now in progress (29).
+[1] [Step Debug] WARN: Creating socket for 'localhost:9000', poll success, but error: Operation now in progress (29).
+[1] [Step Debug] ERR: Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[1] Log closed at 2024-08-18 20:53:10.714693
+
+[1] Log opened at 2024-08-18 20:55:00.033609
+[1] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9000.
+[1] [Step Debug] INFO: Connected to debugging client: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port). :-)
+[1] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///opt/project/app/main.php" language="PHP" xdebug:language_version="7.4.33" protocol_version="1.0" appid="1" idekey="13152"><engine version="3.1.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[1] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[1] Log closed at 2024-08-18 20:55:00.159985
+
+[1] Log opened at 2024-08-18 20:56:03.849841
+[1] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[1] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[1] Log closed at 2024-08-18 20:56:03.956635
+
+[1] Log opened at 2024-08-18 20:58:56.243062
+[1] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[1] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[1] Log closed at 2024-08-18 20:58:56.347303
+
+[15] Log opened at 2024-08-19 07:42:37.979542
+[15] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[15] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[15] Log closed at 2024-08-19 07:42:38.024041
+
+[1] Log opened at 2024-08-19 08:01:50.973674
+[1] [Step Debug] INFO: Connecting to configured address/port: localhost:9000.
+[1] [Step Debug] WARN: Creating socket for 'localhost:9000', poll success, but error: Operation now in progress (29).
+[1] [Step Debug] WARN: Creating socket for 'localhost:9000', poll success, but error: Operation now in progress (29).
+[1] [Step Debug] ERR: Could not connect to debugging client. Tried: localhost:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[1] Log closed at 2024-08-19 08:01:51.135326
+
+[1] Log opened at 2024-08-19 08:02:07.763937
+[1] [Step Debug] INFO: Connecting to configured address/port: host.internal.docker:9000.
+[1] [Step Debug] WARN: Creating socket for 'host.internal.docker:9000', getaddrinfo: Invalid argument.
+[1] [Step Debug] ERR: Could not connect to debugging client. Tried: host.internal.docker:9000 (through xdebug.client_host/xdebug.client_port) :-(
+[1] Log closed at 2024-08-19 08:02:08.123377
+
+[15] Log opened at 2024-08-20 19:12:08.626213
+[15] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[15] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[30] Log opened at 2024-08-20 19:12:08.921437
+[30] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[30] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[30] Log closed at 2024-08-20 19:12:08.944549
+
+[15] Log closed at 2024-08-20 19:12:08.952513
+
+[33] Log opened at 2024-08-20 19:12:31.218936
+[33] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[33] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[48] Log opened at 2024-08-20 19:12:31.479861
+[48] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[48] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[48] Log closed at 2024-08-20 19:12:31.501030
+
+[33] Log closed at 2024-08-20 19:12:31.505026
+
+[51] Log opened at 2024-08-20 19:12:53.832862
+[51] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[51] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[66] Log opened at 2024-08-20 19:12:54.096046
+[66] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[66] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[66] Log closed at 2024-08-20 19:12:54.118046
+
+[51] Log closed at 2024-08-20 19:12:54.123953
+
+[69] Log opened at 2024-08-20 19:20:37.473399
+[69] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[69] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[69] Log closed at 2024-08-20 19:20:37.833547
+
+[71] Log opened at 2024-08-20 19:22:34.189422
+[71] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[71] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[71] Log closed at 2024-08-20 19:22:34.222026
+
+[72] Log opened at 2024-08-20 19:24:18.142350
+[72] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[72] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[72] Log closed at 2024-08-20 19:24:18.173166
+
+[73] Log opened at 2024-08-20 19:24:25.432275
+[73] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[73] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[88] Log opened at 2024-08-20 19:24:25.716712
+[88] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[88] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[88] Log closed at 2024-08-20 19:24:25.738291
+
+[73] Log closed at 2024-08-20 19:24:25.742172
+
+[91] Log opened at 2024-08-20 19:24:52.888324
+[91] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[91] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[106] Log opened at 2024-08-20 19:24:53.161904
+[106] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[106] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[106] Log closed at 2024-08-20 19:24:53.184188
+
+[91] Log closed at 2024-08-20 19:24:53.188558
+
+[109] Log opened at 2024-08-20 19:36:30.483030
+[109] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[109] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[109] Log closed at 2024-08-20 19:36:30.505265
+
+[112] Log opened at 2024-08-20 19:42:45.323714
+[112] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[112] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[112] Log closed at 2024-08-20 19:42:45.352105
+
+[113] Log opened at 2024-08-20 19:44:15.880842
+[113] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[113] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[113] Log closed at 2024-08-20 19:44:15.905709
+
+[114] Log opened at 2024-08-20 19:44:44.074906
+[114] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[114] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[114] Log closed at 2024-08-20 19:44:44.100519
+
+[115] Log opened at 2024-08-20 19:45:29.662630
+[115] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[115] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[115] Log closed at 2024-08-20 19:45:29.687459
+
+[116] Log opened at 2024-08-20 19:46:22.420985
+[116] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[116] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[116] Log closed at 2024-08-20 19:46:22.445446
+
+[117] Log opened at 2024-08-20 19:46:48.752004
+[117] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[117] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[117] Log closed at 2024-08-20 19:46:48.775254
+
+[118] Log opened at 2024-08-20 19:47:38.792365
+[118] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[118] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[118] Log closed at 2024-08-20 19:47:38.815580
+
+[119] Log opened at 2024-08-20 19:47:49.043648
+[119] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[119] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[119] Log closed at 2024-08-20 19:47:49.074103
+
+[120] Log opened at 2024-08-20 19:51:29.035910
+[120] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[120] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[120] Log closed at 2024-08-20 19:51:29.063137
+
+[121] Log opened at 2024-08-20 19:51:44.103285
+[121] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[121] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[136] Log opened at 2024-08-20 19:51:44.385707
+[136] [Config] INFO: Trigger value for 'XDEBUG_TRIGGER' not found, falling back to 'XDEBUG_SESSION'
+[136] [Config] INFO: Trigger value for 'XDEBUG_SESSION' not found, so not activating
+[136] Log closed at 2024-08-20 19:51:44.408248
+
+[121] Log closed at 2024-08-20 19:51:44.413476
+
