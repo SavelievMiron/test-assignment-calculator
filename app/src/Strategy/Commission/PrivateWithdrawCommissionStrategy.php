@@ -44,7 +44,7 @@ class PrivateWithdrawCommissionStrategy implements CommissionStrategyInterface
         $userWeekOperations = &$this->userOperations[$userId][$userKey];
 
         // If the first 3 operations are within the free limit
-        if ($userWeekOperations['operations'] <= $this->config->getFreeOperationsLimit()) {
+        if ($userWeekOperations['operations'] < $this->config->getFreeOperationsLimit()) {
             // Calculate the total amount including this operation
             $newTotalInEuro = bcadd($userWeekOperations['total_in_euro'], $amountInEuro, 6);
 
