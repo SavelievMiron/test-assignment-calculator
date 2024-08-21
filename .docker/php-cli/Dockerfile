@@ -1,4 +1,4 @@
-FROM php:7.4-cli
+FROM php:8.2-cli
 
 RUN apt-get update && apt-get install -y \
     libpq-dev \
@@ -14,12 +14,12 @@ RUN apt-get update && apt-get install -y \
     libcurl4 \
     libcurl4-openssl-dev
 
-RUN docker-php-ext-install zip sodium bcmath json curl
+RUN docker-php-ext-install zip sodium bcmath curl
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 RUN composer self-update
 
-RUN pecl install xdebug-3.1.5 && docker-php-ext-enable xdebug
+RUN pecl install xdebug-3.3.2 && docker-php-ext-enable xdebug
 COPY conf/xdebug.ini /usr/local/etc/php/conf.d/
 
 WORKDIR /app
