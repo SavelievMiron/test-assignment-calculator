@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 use CommissionCalculator\Config\Config;
 use CommissionCalculator\RateSource\ExchangeRatesApiRateSource;
 use CommissionCalculator\RateSource\FileRateSource;

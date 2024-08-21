@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 define('ROOT_PATH', __DIR__);
 
 require_once './vendor/autoload.php';
@@ -21,7 +23,7 @@ $dotenv->required([
     'CURRENCY_DECIMAL_PLACES_JPY'
 ])->notEmpty();
 
-$containerFactory = require __DIR__ . '/config/di.php';
+$containerFactory = require_once __DIR__ . '/config/di.php';
 $container = $containerFactory();
 
 $app = $container->get(App::class);
