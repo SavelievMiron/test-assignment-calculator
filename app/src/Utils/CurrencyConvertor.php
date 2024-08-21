@@ -8,12 +8,10 @@ use CommissionCalculator\RateSource\RateSourceInterface;
 
 class CurrencyConvertor
 {
-    private RateSourceInterface $rateSource;
     private array $rates;
 
-    public function __construct(RateSourceInterface $rateSource)
+    public function __construct(private readonly RateSourceInterface $rateSource)
     {
-        $this->rateSource = $rateSource;
         $this->rates = $this->getRates();
     }
 

@@ -10,16 +10,12 @@ use CommissionCalculator\Utils\CurrencyConvertor;
 
 class PrivateWithdrawCommissionStrategy implements CommissionStrategyInterface
 {
-    private Config $config;
-    private CurrencyConvertor $converter;
-    private array $userOperations;
-
-    public function __construct(Config $config, CurrencyConvertor $converter, array &$userOperations)
-    {
-        $this->config = $config;
-        $this->converter = $converter;
-        $this->userOperations = &$userOperations;
-    }
+    public function __construct(
+        private readonly Config $config,
+        private readonly CurrencyConvertor $converter,
+        private array &$userOperations
+    )
+    {}
 
     /**
      * Calculate commission

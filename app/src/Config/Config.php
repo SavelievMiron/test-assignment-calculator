@@ -6,29 +6,17 @@ namespace CommissionCalculator\Config;
 
 class Config
 {
-    private string $depositFeeRate;
-    private string $businessWithdrawFeeRate;
-    private string $privateWithdrawFeeRate;
-    private string $freeLimit;
-    private int $freeOperationsLimit;
-    private array $currencyDecimalPlaces;
+
 
     public function __construct(
-        string $depositFeeRate,
-        string $businessWithdrawFeeRate,
-        string $privateWithdrawFeeRate,
-        string $freeLimit,
-        int    $freeOperationsLimit,
-        array  $currencyDecimalPlaces
+        private string $depositFeeRate,
+        private string $businessWithdrawFeeRate,
+        private string $privateWithdrawFeeRate,
+        private string $freeLimit,
+        private int $freeOperationsLimit,
+        private array $currencyDecimalPlaces,
     )
-    {
-        $this->depositFeeRate = $depositFeeRate;
-        $this->businessWithdrawFeeRate = $businessWithdrawFeeRate;
-        $this->privateWithdrawFeeRate = $privateWithdrawFeeRate;
-        $this->freeLimit = $freeLimit;
-        $this->freeOperationsLimit = $freeOperationsLimit;
-        $this->currencyDecimalPlaces = $currencyDecimalPlaces;
-    }
+    {}
 
     public function getDepositFeeRate(): string
     {

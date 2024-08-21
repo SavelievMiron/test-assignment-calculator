@@ -6,29 +6,15 @@ namespace CommissionCalculator\Model;
 
 class Operation
 {
-    private int $userId;
-    private string $userType;
-    private string $type;
-    private string $amount;
-    private string $currency;
-    private \DateTime $date;
-
     public function __construct(
-        int       $userId,
-        string    $userType,
-        string    $type,
-        string     $amount,
-        string    $currency,
-        \DateTime $date
+        private readonly int       $userId,
+        private readonly string    $userType,
+        private readonly string    $type,
+        private readonly string    $amount,
+        private readonly string    $currency,
+        private readonly \DateTime $date
     )
-    {
-        $this->userId = $userId;
-        $this->userType = $userType;
-        $this->type = $type;
-        $this->amount = $amount;
-        $this->currency = $currency;
-        $this->date = $date;
-    }
+    {}
 
     public function getUserId(): int
     {

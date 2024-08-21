@@ -23,7 +23,12 @@ class App
 
     public function processOperations($filename): void
     {
-        $fileReader = FileReaderFactory::create($filename);
+        try {
+            $fileReader = FileReaderFactory::create($filename);
+        } catch (FileInvalidFormatException $e) {
+            echo 'Error: ' . $e->getMessage() . PHP_EOL;
+            exit();
+        }
 
         foreach ($fileReader->read($filename) as $line) {
             $operation = $this->parseOperation($line);
@@ -34,9 +39,6 @@ class App
                 echo 'Error: ' . $e->getMessage() . PHP_EOL;
                 continue;
             } catch (FileNotFoundException $e) {
-                echo 'Error: ' . $e->getMessage() . PHP_EOL;
-                break;
-            } catch (FileInvalidFormatException $e) {
                 echo 'Error: ' . $e->getMessage() . PHP_EOL;
                 break;
             }

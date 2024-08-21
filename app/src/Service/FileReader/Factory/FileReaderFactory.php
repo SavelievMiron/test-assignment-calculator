@@ -14,12 +14,9 @@ class FileReaderFactory
     {
         $extension = pathinfo($filePath, PATHINFO_EXTENSION);
 
-        switch ($extension) {
-            case 'csv':
-                return new CsvFileReader();
-            // Add more cases for other file formats if needed.
-            default:
-                throw new FileInvalidFormatException($extension);
-        }
+        return match ($extension) {
+            'csv' => new CsvFileReader(),
+            default => throw new FileInvalidFormatException($extension),
+        };
     }
 }

@@ -9,12 +9,8 @@ use CommissionCalculator\Model\Operation;
 
 class CommissionCalculator
 {
-    private array $strategies;
-
-    public function __construct(array $commissionStrategies)
-    {
-        $this->strategies = $commissionStrategies;
-    }
+    public function __construct(private readonly array $strategies)
+    {}
 
     /**
      * Calculate Commission
